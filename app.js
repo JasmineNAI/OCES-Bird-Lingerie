@@ -317,6 +317,7 @@
   const showArchiveSheet = index => {
     archiveIndex = (index + archiveSheets.length) % archiveSheets.length;
     const sheet = archiveSheets[archiveIndex];
+    archiveViewer.classList.toggle('is-image-only',sheet.id.startsWith('bird-lingerie-first-'));
     $('#archive-viewer-image').src = sheet.src;
     $('#archive-viewer-image').alt = sheet.caption;
     $('#archive-viewer-title').textContent = sheet.title;

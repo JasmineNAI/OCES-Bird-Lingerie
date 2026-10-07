@@ -20,6 +20,8 @@ Each photograph was edited separately with the built-in imagegen tool to remove 
 
 The gallery uses a pale display surface so the transparent objects read clearly. Images are contained without cropping. Each photograph opens in the archive viewer, with Previous / Next, arrow keys and Escape. The nine views are the first nine items in the viewer’s order. Other website sections retain their existing content.
 
+The visible labels beneath the nine product photographs contain only 01–09. Product photographs open in an image-only viewer with close and previous/next buttons; titles, captions, category labels, the position counter and keyboard instructions are hidden for these nine views. Accessible image descriptions remain available. Browsing onward to a notebook restores the original archive information.
+
 ## Background-removal prompt
 
 Used for each input separately, with transparent_background=true:
@@ -31,3 +33,5 @@ View 01 used the same prompt with “and its brown support stick” and “Retai
 ## Validation
 
 Checked 8 October 2026: all nine PNGs have transparent alpha and the nine archived JPEGs match the supplied originals byte for byte. The homepage was checked at 1440px and 390px widths: all images load, every product opens in the archive viewer, arrow-key navigation and Escape work, and the nine product views precede the original archive. All 128 local resource references resolve. The standalone OCES-submission.html also opens with its images embedded. Browser checks reported no errors.
+
+The image-only update was checked at both widths and in the standalone HTML: all nine labels show only their numbers, all nine product views contain no visible explanatory text, and closing, previous/next buttons and keyboard navigation work. Moving from product 09 to the first notebook restores the archive information; returning to a product hides it again. No browser errors or horizontal overflow were found.
