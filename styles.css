@@ -812,3 +812,19 @@ h2 span,.eros-principle h3 span{color:inherit}
 @keyframes bird-head-tilt{0%,100%{transform:rotate(0)}25%{transform:rotate(9deg)}55%{transform:rotate(-8deg)}78%{transform:rotate(4deg)}}
 @keyframes bird-eye-blink{0%,35%,48%,100%{transform:scaleY(1)}40%,44%{transform:scaleY(.12)}}
 @media(prefers-reduced-motion:reduce){.signal-art.is-performing .parrot-art *{animation:none!important}.signal-art.is-performing[data-lens=colour] .bird-beak-lower{transform:rotate(16deg)}.signal-art.is-performing[data-lens=motion] .bird-wing{transform:rotate(-28deg)}.signal-art.is-performing[data-lens=welfare] .bird-head{transform:rotate(5deg)}}
+
+/* First Bird Lingerie: author-supplied studio views, shown before the notebooks. */
+.studio-product-heading{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;margin:100px 0 46px}
+.studio-product-heading .notebook-group-title{margin:0;max-width:530px}
+.studio-product-heading p{font-size:18px;line-height:1.8;color:var(--muted);max-width:560px}
+#first-bird-lingerie{grid-template-columns:repeat(3,minmax(0,1fr));gap:44px 30px;margin:0}
+.studio-product-card .studio-product-image{aspect-ratio:4/5;height:auto;background:#edf1e9;border-radius:12px}
+.studio-product-image img{object-fit:contain;padding:24px;box-sizing:border-box}
+.studio-product-card figcaption{display:flex;align-items:baseline;gap:14px;margin-top:20px}
+.studio-view-number{font-size:10px;letter-spacing:.05em;color:var(--green-ink);font-variant-numeric:tabular-nums}
+.studio-product-card h4{font-size:16px;font-weight:500;letter-spacing:-.02em;line-height:1.4;margin:0}
+.archive-stage.is-studio{background:#edf1e9}
+.archive-stage.is-studio img{object-fit:contain}
+@media(max-width:1000px){.studio-product-heading{gap:36px}#first-bird-lingerie{gap:30px 20px}.studio-product-image img{padding:18px}}
+@media(max-width:760px){.studio-product-heading{grid-template-columns:1fr;gap:22px;margin:72px 0 32px}.studio-product-heading p{font-size:16px}#first-bird-lingerie{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 16px}.studio-product-card .studio-product-image{border-radius:8px}.studio-product-image img{padding:12px}.studio-product-card figcaption{gap:8px;margin-top:14px}.studio-product-card h4{font-size:13px}.studio-view-number{font-size:9px}}
+@media(max-width:380px){#first-bird-lingerie{grid-template-columns:1fr}.studio-product-image img{padding:22px}}

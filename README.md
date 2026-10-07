@@ -1,4 +1,4 @@
-# OCES website source · 7 October 2026
+# OCES website source · 8 October 2026
 
 Open index.html directly in a browser. Photography, fonts, styles and scripts are stored locally; no installation or build step is needed. The three portable HTML files in the parent outputs folder embed all required assets. Keep them together for cross-page navigation.
 
@@ -16,7 +16,9 @@ The Bird Lingerie definition has a large typographic title and three parallel de
 
 The material panel uses an AI-generated macro of pale ultra-fine technical fabric, soft natural light and small iridescent reflections. Its caption, material article and image credits identify it as a concept study. Programme figures are authored fictional 2095 figures, not measured results of the Lush partnership.
 
-The design archive contains 24 unique sheets: 23 author-supplied original photographs and one earlier AI-generated graphite concept study. The supplied notebook scans and three hand-modelling photos retain their original bytes. Those three photos share one heading, “Made by hand. Fitted to the bird.”, and appear as parallel columns on desktop and a horizontal group on mobile. The archive viewer supports Previous / Next and arrow keys; Escape closes it. Reading orientation is applied to earlier sideways scans without editing the files.
+The design archive contains 33 unique views. Its first group, “The first Bird Lingerie.”, presents nine author-supplied studio product photographs with transparent backgrounds, prepared with the built-in imagegen tool. Product details and visible support sticks are retained. All nine original JPEGs are preserved in assets/studio-originals/. The new gallery has three columns on desktop and two on mobile, and each view opens in the existing archive viewer. Sources and the exact removal prompt are recorded in docs/OCES-first-bird-lingerie-studio.md.
+
+The remaining archive contains 23 author-supplied original photographs and one earlier AI-generated graphite concept study. The supplied notebook scans and three hand-modelling photos retain their original bytes. Those three photos share one heading, “Made by hand. Fitted to the bird.”, and appear as parallel columns on desktop and a horizontal group on mobile. The archive viewer supports Previous / Next and arrow keys; Escape closes it. Reading orientation is applied to earlier sideways scans without editing the files.
 
 Bibi and Filo use the latest author-supplied portraits, edited with imagegen into monochrome cutouts within the established green poster layout. Six journal entries remain; the critical Jasmine card and its article were removed. The first journal entry describes practical studio work enabled by the investment. Larger funding actions appear on the right, with Partnership programme highlighted green.
 
