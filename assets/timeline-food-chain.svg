@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" fill="none">
+  <rect width="960" height="500" rx="24" fill="#fff"/>
+  <g stroke="#00D958" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M102 332C74 236 118 152 237 140C258 256 210 315 102 332Z"/>
+    <path d="M89 353L211 169M128 295L116 237M158 251L208 236"/>
+    <path d="M267 247H345M328 230L345 247L328 264" stroke-width="7"/>
+    <path d="M577 247H656M639 230L656 247L639 264" stroke-width="7" stroke-dasharray="2 14"/>
+    <path d="M724 196C724 162 747 139 776 139C806 139 826 163 826 191L849 214L822 228C828 280 804 319 756 331L701 361L716 303C688 280 691 228 724 196Z"/>
+    <path d="M719 234C732 229 757 235 782 257C774 281 753 295 728 291M752 331L750 359M786 321L795 359M735 359H766M783 359H809" stroke-width="7"/>
+  </g>
+  <circle cx="790" cy="180" r="5" fill="#00D958"/>
+  <g stroke="#AFBDB2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="465" cy="265" rx="43" ry="62"/>
+    <path d="M442 207C432 167 497 167 489 207M465 211V323M442 181L428 161M487 181L501 161M426 233L399 216L388 198M422 266H386M429 298L402 316L394 335M503 233L531 216L541 198M508 266H544M501 298L529 316L537 335"/>
+  </g>
+  <path d="M409 351L524 161" stroke="#1D1D1F" stroke-width="9" stroke-linecap="round"/>
+</svg>

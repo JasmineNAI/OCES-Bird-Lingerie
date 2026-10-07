@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 258" fill="none" role="img" aria-labelledby="year-title">
+  <title id="year-title">2095</title>
+  <g stroke="#1d1d1f" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 72C37 18 92 8 132 36C175 66 159 108 128 140L26 231H165"/>
+    <path d="M224 70C247 29 295 13 341 31C389 48 411 92 405 145"/>
+    <path d="M390 188C366 230 319 245 275 226C233 208 210 173 212 120"/>
+    <ellipse cx="565" cy="94" rx="77" ry="70"/>
+    <path d="M642 92C652 153 625 205 575 235"/>
+    <path d="M880 26H750L737 123C781 95 861 102 880 152C902 212 851 248 808 235C776 227 752 211 738 191"/>
+  </g>
+  <g stroke="#00d958" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M382 123L405 147L429 123"/>
+    <path d="M188 141L212 117L236 141"/>
+  </g>
+</svg>

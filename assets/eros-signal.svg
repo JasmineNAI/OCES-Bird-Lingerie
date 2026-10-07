@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="parrot-art" viewBox="0 0 560 500" fill="none" aria-hidden="true" focusable="false">
+  <g stroke="#00d958" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path class="bird-body" d="M237 158C207 177 187 205 184 237C180 267 189 295 214 315L187 434L292 335C339 324 375 295 388 251C396 225 392 203 377 176C338 160 282 148 237 158Z"/>
+    <g class="bird-head">
+      <path fill="var(--pale,#f5f5f7)" stroke="none" d="M237 158C232 143 231 130 234 116C242 78 274 57 309 63C342 68 363 91 363 121C365 145 370 161 377 176C342 199 275 199 237 158Z"/>
+      <path d="M237 158C232 143 231 130 234 116C242 78 274 57 309 63C342 68 363 91 363 121C365 145 370 161 377 176"/>
+      <path class="bird-beak-upper" d="M363 121C397 117 431 142 422 182"/>
+      <path class="bird-beak-lower" d="M377 176C392 165 405 166 422 182"/>
+      <circle class="bird-eye" cx="323" cy="116" r="8" fill="#00d958" stroke="none"/>
+    </g>
+    <g class="bird-wing"><path fill="var(--pale,#f5f5f7)" d="M247 190C226 211 219 241 231 267C243 295 270 307 299 294C319 270 328 238 317 211C299 192 272 184 247 190Z"/></g>
+    <path d="M290 335V360M322 326V360M274 360H435"/>
+    <g class="bird-call-marks" stroke-width="7"><path d="M450 139l18-8M452 169h23M444 195l17 12"/></g>
+  </g>
+</svg>
