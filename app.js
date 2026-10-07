@@ -312,25 +312,28 @@
     kind: source.dataset.archiveKind,
     orientation: source.dataset.archiveOrientation
   })).sort((a,b) => a.order - b.order);
+  const studioProductSheets = archiveSheets.filter(sheet => sheet.id.startsWith('bird-lingerie-first-'));
+  let activeArchiveSheets = archiveSheets;
   let archiveIndex = 0;
   let archiveTrigger;
   const showArchiveSheet = index => {
-    archiveIndex = (index + archiveSheets.length) % archiveSheets.length;
-    const sheet = archiveSheets[archiveIndex];
+    archiveIndex = (index + activeArchiveSheets.length) % activeArchiveSheets.length;
+    const sheet = activeArchiveSheets[archiveIndex];
     archiveViewer.classList.toggle('is-image-only',sheet.id.startsWith('bird-lingerie-first-'));
     $('#archive-viewer-image').src = sheet.src;
     $('#archive-viewer-image').alt = sheet.caption;
     $('#archive-viewer-title').textContent = sheet.title;
     $('#archive-viewer-caption').textContent = sheet.caption;
     $('#archive-viewer-kind').textContent = sheet.kind;
-    $('#archive-position').textContent = `${String(archiveIndex + 1).padStart(2,'0')} / ${archiveSheets.length}`;
+    $('#archive-position').textContent = `${String(archiveIndex + 1).padStart(2,'0')} / ${activeArchiveSheets.length}`;
     $('.archive-stage').classList.toggle('is-sideways',sheet.orientation === 'sideways' || sheet.orientation === 'clockwise');
     $('.archive-stage').classList.toggle('is-clockwise',sheet.orientation === 'clockwise');
     $('.archive-stage').classList.toggle('is-pencil',sheet.id.startsWith('study-'));
     $('.archive-stage').classList.toggle('is-studio',sheet.id.startsWith('bird-lingerie-first-'));
   };
   $$('[data-archive]').forEach(trigger => trigger.addEventListener('click',() => {
-    const index = archiveSheets.findIndex(sheet => sheet.id === trigger.dataset.archive);
+    activeArchiveSheets = trigger.dataset.archive.startsWith('bird-lingerie-first-') ? studioProductSheets : archiveSheets;
+    const index = activeArchiveSheets.findIndex(sheet => sheet.id === trigger.dataset.archive);
     if(index < 0) return;
     archiveTrigger = trigger;
     showArchiveSheet(index);
